@@ -1,4 +1,10 @@
-## Installation
+## Run sass script
+
+```bash
+npm run sass
+```
+
+## Installation server
 
 Install live-server globaly
 
