@@ -1,0 +1,16 @@
+{
+  "name": "sass-course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "./node_modules/.bin/node-sass --output-style expanded sass/main.scss > public/css/main.css",
+    "sass-compressed": "./node_modules/.bin/node-sass --output-style compressed sass/main.scss > public/css/main.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "node-sass": "^4.13.1"
+  }
+}
