@@ -1,50 +1,71 @@
-body {
-  color: green;
-  width: 200px;
-  -webkit-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3), 4px 4px 2px gray;
-  -moz-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3), 4px 4px 2px gray;
-  -o-box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3), 4px 4px 2px gray;
-  box-shadow: 1px 2px 3px rgba(0, 0, 0, 0.3), 4px 4px 2px gray;
+#grid > div {
+  height: 25px;
+  background: #ccc;
+  border: 1px solid #aaa;
+  box-sizing: border-box;
+  float: left;
 }
 
-body #main {
-  color: blue;
-  background: green;
-  line-height: 2.6;
+#grid.cell-1 > div {
+  width: 100%;
 }
 
-@-webkit-keyframes myAnim {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+#grid.cell-2 > div {
+  width: 50%;
 }
 
-@-moz-keyframes myAnim {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+#grid.cell-3 > div {
+  width: 33.33333%;
 }
 
-@-o-keyframes myAnim {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+#grid.cell-4 > div {
+  width: 25%;
 }
 
-@keyframes myAnim {
-  0% {
-    opacity: 0;
-  }
-  100% {
-    opacity: 1;
-  }
+#grid.cell-5 > div {
+  width: 20%;
+}
+
+#grid.cell-6 > div {
+  width: 16.66667%;
+}
+
+#grid.cell-7 > div {
+  width: 14.28571%;
+}
+
+#grid.cell-8 > div {
+  width: 12.5%;
+}
+
+#grid.cell-9 > div {
+  width: 11.11111%;
+}
+
+#grid.cell-10 > div {
+  width: 10%;
+}
+
+#grid.cell-11 > div {
+  width: 9.09091%;
+}
+
+#grid.cell-12 > div {
+  width: 8.33333%;
+}
+
+#grid.cell-13 > div {
+  width: 7.69231%;
+}
+
+#grid.cell-14 > div {
+  width: 7.14286%;
+}
+
+#grid.cell-15 > div {
+  width: 6.66667%;
+}
+
+#grid.cell-16 > div {
+  width: 6.25%;
 }
